@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flappy Bird with AI</title>
+    <style>
+        #canvas {
+            display: block;
+            margin: 50px auto;
+        }
+        ul {
+            position: absolute;
+            list-style: none;
+            border: solid 1px #ddd;
+            top: 0;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Score: <span id="score">0</span></li>
+        <li>Max score: <span id="max">0</span></li>
+        <li>Generation: <span id="generation">0</span></li>
+    </ul>
+    <canvas width="400" height="640" id="canvas" style="border:1px solid #000000;"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+    <script src="ai.js"></script>
+    <script src="bird.js"></script>
+    <script src="pipe.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
