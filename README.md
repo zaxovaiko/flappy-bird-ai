@@ -9,7 +9,7 @@ I have used Tensorflow.js for making neural network with 4 inputs, 4 nodes in hi
  1. Clone or download this repo
  2. Install Node.js 10+
  3. Change `config.js` to match your preferences
- 4. Build bundle with `npm run dev` or `npm run prod`
+ 4. Build bundle with `npm run build` and then `npm run start`
  5. Open `index.html` and train your model.
 
 ## To-do
