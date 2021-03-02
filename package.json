@@ -1,0 +1,49 @@
+{
+  "name": "flappy-bird-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Flappy Bird clone with AI",
+  "main": "src/index.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production",
+    "start": "http-server",
+    "fix": "eslint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaxoavoki/flappy-bird-ai.git"
+  },
+  "keywords": [
+    "game",
+    "flappy-bird",
+    "ai",
+    "tensorflow"
+  ],
+  "author": "Volodymyr Zakhovaiko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zaxoavoki/flappy-bird-ai/issues"
+  },
+  "homepage": "https://github.com/zaxoavoki/flappy-bird-ai#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/plugin-syntax-class-properties": "^7.12.13",
+    "@babel/plugin-transform-runtime": "^7.13.9",
+    "@babel/preset-env": "^7.13.8",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.2.0",
+    "http-server": "^0.12.3"
+  },
+  "heroku-run-build-script": true
+}
